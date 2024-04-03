@@ -1,16 +1,16 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom'
-import HomePage from './components/HomePage';
-import AboutPage from './components/AboutPage';
-import DemoPage from './components/DemoPage';
-import MembersPage from './components/MembersPage';
+import HomePage from './pages/HomePage';
+import AboutPage from './pages/AboutPage';
+import DemoPage from './pages/DemoPage';
+import MembersPage from './pages/MembersPage';
 import NavBar from './components/NavBar';
 
 function App() {
   return (
-    <Router>
-      <div>
+    <div className="App">
+      <Router>
         <NavBar />
         <Switch>
             <Route exact path="/" component={HomePage} />
@@ -18,8 +18,8 @@ function App() {
             <Route path="/demo" component={DemoPage} />
             <Route path="/members" component={MembersPage} />
         </Switch>
-      </div>
-    </Router>
+      </Router>
+    </div>
   );
 }
 
