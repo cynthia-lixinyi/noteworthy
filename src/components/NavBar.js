@@ -1,24 +1,38 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../assets/noteworthy-bear-logo.png';
+import ReorderIcon from '@mui/icons-material/Reorder';
 
-import './NavBar.css';
+import '../styles/NavBar.css';
 
 const NavBar = () => {
+
+    const [displayLinks, setDisplayLinks] = useState(false);
+    const toggleNavBar = () => {
+        setDisplayLinks(!displayLinks);
+    }
+
     return (
         <div className="navbar">
             <div className="leftSide">
                 <a href="/">
-                    <img src={logo} alt="logo" width="100" />
+                    <img src={logo} alt="logo" />
                 </a>
             </div>
             <div className="rightSide">
-            <ul>
-                <li><Link to="/">Home</Link></li>
-                <li><Link to="/about">About us</Link></li>
-                <li><Link to="/demo">Demo</Link></li>
-                <li><Link to="/members">Members</Link></li>
-            </ul>
+                <Link to="/">Home</Link>
+                <Link to="/about">About us</Link>
+                <Link to="/demo">Demo</Link>
+                <Link to="/members">Members</Link>
+                <button onClick={toggleNavBar}>
+                    <ReorderIcon />
+                    <div className="rightSideMenu" id={displayLinks ? "displayed" : "shrinked"}>
+                        <Link to="/">Home</Link>
+                        <Link to="/about">About us</Link>
+                        <Link to="/demo">Demo</Link>
+                        <Link to="/members">Members</Link>
+                    </div>
+                </button>
             </div>
         </div>
     )

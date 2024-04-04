@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom'
-import HomePage from './pages/HomePage';
-import AboutPage from './pages/AboutPage';
-import DemoPage from './pages/DemoPage';
-import MembersPage from './pages/MembersPage';
+import Home from './pages/Home';
+import About from './pages/About';
+import Demo from './pages/Demo';
+import Members from './pages/Members';
 import NavBar from './components/NavBar';
 
 function App() {
@@ -13,10 +13,10 @@ function App() {
       <Router>
         <NavBar />
         <Switch>
-            <Route exact path="/" component={HomePage} />
-            <Route path="/about" component={AboutPage} />
-            <Route path="/demo" component={DemoPage} />
-            <Route path="/members" component={MembersPage} />
+            <Route exact path="/" component={Home} />
+            <Route path="/about" component={About} />
+            <Route path="/demo" component={Demo} />
+            <Route path="/members" component={Members} />
         </Switch>
       </Router>
     </div>
