@@ -1,9 +1,16 @@
 import React from 'react'
+import backgroundImage from '../assets/bg-group-photo.jpg'
+import '../styles/Home.css'
 
 const Home = () => {
     return (
-        <div id="home">
-            <h1>Home Page</h1>
+        <div className="home">
+            <div 
+                className="headerContainer" 
+                style={{ backgroundImage: `url(${backgroundImage})`}}>
+                <h1>NOTEWORTHY</h1>
+                <h1>A CAPPELLA</h1>
+            </div>
         </div>
     )
 };

@@ -6,6 +6,7 @@ import About from './pages/About';
 import Demo from './pages/Demo';
 import Members from './pages/Members';
 import NavBar from './components/NavBar';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route path="/demo" component={Demo} />
             <Route path="/members" component={Members} />
         </Switch>
+        <Footer />
       </Router>
     </div>
   );
