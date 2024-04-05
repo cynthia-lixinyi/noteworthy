@@ -25,115 +25,134 @@ export const MembersList = [
     {
         image: maya,
         name: "Maya Rotenberg",
-        voice_part: "Tenor 1"
+        voice_part: "Tenor 1",
+        description: "123"
     },
     // 2.
     {
         image: alex,
         name: "Alex Pease",
-        voice_part: "Bass"
+        voice_part: "Bass",
+        description: "456"
     },
     // 3.
     {
         image: bhaskar,
         name: "Bhaskar Roberts",
-        voice_part: "Tenor 2"
+        voice_part: "Tenor 2",
+        description: ""
     },
     // 4.
     {
         image: ellington,
         name: "Ellington Chen",
-        voice_part: "Baritone"
+        voice_part: "Baritone",
+        description: ""
     },
     // 5.
     {
         image: justin,
         name: "Justin Wong",
-        voice_part: "Baritone"
+        voice_part: "Baritone",
+        description: ""
     },
     // 6.
     {
         image: jerry,
         name: "Jerry Hou",
-        voice_part: "Baritone"
+        voice_part: "Baritone",
+        description: ""
     },
     // 7. 
     {
         image: athena,
         name: "Athena Liu",
-        voice_part: "Tenor 1"
+        voice_part: "Tenor 1",
+        description: ""
     },
     // 8.
     {
         image: stephanus,
         name: "Stephanus Yang",
-        voice_part: "Tenor 2"
+        voice_part: "Tenor 2",
+        description: ""
     },
     // 9.
     {
         image: kian,
         name: "Kian Chou",
-        voice_part: "Bass"
+        voice_part: "Bass",
+        description: ""
     },
     // 10.
     {
         image: eddie,
         name: "Eddie Cekici",
-        voice_part: "Bass and Vocal Percussion"
+        voice_part: "Bass and Vocal Percussion",
+        description: ""
     },
     // 11.
     {
         image: andrew,
         name: "Andrew Tran",
-        voice_part: "Tenor 2"
+        voice_part: "Tenor 2",
+        description: ""
     },
     // 12.
     {
         image: ethan,
         name: "Ethan Jang",
-        voice_part: "Bass"
+        voice_part: "Bass",
+        description: ""
     },
     // 13.
     {
         imgae: tom,
         name: "Tom Guan",
-        voice_part: "Baritone"
+        voice_part: "Baritone",
+        description: ""
     },
     // 14.
     {
         image: madlen,
         name: "Madlen Jalalyan",
-        voice_part: "Tenor 1"
+        voice_part: "Tenor 1",
+        description: ""
     },
     // 15.
     {
         image: chris,
         name: "Christopher Yuan",
-        voice_part: "Tenor 2"
+        voice_part: "Tenor 2",
+        description: ""
     },
     // 16.
     {
         image: caitlyn,
         name: "Caitlyn Liao",
-        voice_part: "Tenor 1"
+        voice_part: "Tenor 1",
+        description: ""
     },
     // 17.
     {
         image: anthony,
         name: "Anthoy",
-        voice_part: "unknown"
+        voice_part: "unknown",
+        description: ""
     },
     // 18.
     {
         image: amanda,
         name: "Amanda Sakimura",
-        voice_part: "Tenor 1"
+        voice_part: "Tenor 1",
+        description: ""
     },
     // 19. 
     {
         image: jessica,
         name: "Jessica Yu",
-        voice_part: "Tenor 1"
+        voice_part: "Tenor 1",
+        description: ""
     }
 
 

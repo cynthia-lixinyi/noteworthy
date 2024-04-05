@@ -11,9 +11,12 @@ const Members = () => {
       <div className="membersList">
         {MembersList.map((item, key) => {
           return (
-            <Member image={item.image} 
+            <Member 
+                    key={key}
+                    image={item.image} 
                     name={item.name} 
                     voice_part={item.voice_part}
+                    description={item.description}
             />
           );
         })}
