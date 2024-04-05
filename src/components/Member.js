@@ -5,7 +5,7 @@ function Member({ image, name, voice_part}) {
     <div className="individualMember">
       <div style={{ backgroundImage: `url(${image})`}}></div>
       <h1> {name} </h1>
-      <p> {voice_part} </p>
+      <h3> {voice_part} </h3>
     </div>
   )
 }
