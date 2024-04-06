@@ -1,18 +1,20 @@
 import React from 'react'
 import CloseIcon from '@mui/icons-material/Close';
+import '../styles/Modal.css'
 
-const Modal = ({ title, description }) => {
+const Modal = ({ isOpen, closeModal, member }) => {
+
   return (
-    <div className="modalBackground">
+    <div className={`modal ${isOpen ? 'open' : 'closed'}`}>
       <div className="modalContainer">
-        <button>
+        <button className="close-btn" onClick={closeModal}>
           <CloseIcon />
         </button>
         <div className="modalTitle">
-          <h1>{title}</h1>
+          <h1>{member.name}</h1>
         </div>
         <div className="modalBody">
-          <p>{description}</p>
+          <p>{member.description}</p>
         </div>
       </div>
     </div>

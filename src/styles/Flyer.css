@@ -1,0 +1,7 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.flyer {
+  width: 50%;
+  height: 50%;
+}

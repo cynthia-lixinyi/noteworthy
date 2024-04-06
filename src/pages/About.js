@@ -1,5 +1,5 @@
 import React from 'react';
-import Slider from '../components/Slider';
+import Flyer from '../components/Flyer';
 import '../styles/About.css';
 
 const About = () => {
@@ -20,12 +20,12 @@ const About = () => {
       </div>
       <div className="aboutBottomContainer">
         <div className="events">
-        <h1>Events</h1>
-        <p>We organize Welcome Back to A Cappella, 
-        Cal’s a cappella orientation, at the beginning of every semester. 
-        Hundreds of students turn out to hear 13+ a cappella groups perform. 
-        The shows are always fun, and we hope you’ll come!</p>
-          <Slider />
+          <h1>Events</h1>
+          <p>We organize Welcome Back to A Cappella, 
+          Cal’s a cappella orientation, at the beginning of every semester. 
+          Hundreds of students turn out to hear 13+ a cappella groups perform. 
+          The shows are always fun, and we hope you’ll come!</p>
+          <Flyer />
         </div>
         <div className="HireUs">
           <h1>Hire Us</h1>
