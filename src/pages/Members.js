@@ -12,11 +12,10 @@ const Members = () => {
         {MembersList.map((item, key) => {
           return (
             <Member 
-                    key={key}
-                    image={item.image} 
-                    name={item.name} 
-                    voice_part={item.voice_part}
-                    description={item.description}
+              key={key}
+              image={item.image} 
+              name={item.name} 
+              voice_part={item.voice_part}
             />
           );
         })}
