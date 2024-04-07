@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+h1 {
+  text-align: center;
+}
+
 .aboutBottomContainer {
   display: flex;
   justify-content: space-between;
@@ -12,11 +16,22 @@
   flex: 1; /* Each div takes equal space */
   margin: 0 10px; /* Optional: Add some margin for spacing */
   border: 1px solid #ccc;
+  border-radius: 15px;
   padding: 10px;
   text-align: center;
 }
 
-.about .aboutBottomContainer .event, img {
+.aboutBottomContainer ul {
+  text-align: left;
+}
+
+
+.about .aboutBottomContainer .events img {
   width: 200px;
   height: 300px;
 }
+
+/* .about .aboutBottomContainer .HireUse #hire-us-image {
+  width: 200px;
+  height: 200px;
+} */
