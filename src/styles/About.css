@@ -18,11 +18,11 @@ h1 {
   border: 1px solid #ccc;
   border-radius: 15px;
   padding: 10px;
-  text-align: left;
+  text-align: center;
 }
 
-.aboutBottomContainer img {
-  text-align: center;
+.aboutBottomContainer ul {
+  text-align: left;
 }
 
 

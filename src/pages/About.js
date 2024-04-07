@@ -30,7 +30,7 @@ const About = () => {
         </div>
         <div className="HireUs">
           <h1>Hire Us</h1>
-          <p>Please e-mail our business manager at <b>noteworthy@ucchoral.berkeley.edu</b> and fill out this form. 
+          <p>Please e-mail our business manager at <b>noteworthy@ucchoral.berkeley.edu</b> and fill out this <a href="https://docs.google.com/forms/d/e/1FAIpQLSexPGp4LpkvAaE66Kmh5EllvAaXQtPmGquz_1dDo9g2PZ01hg/viewform" target="__blank">form</a>. 
             Then we’ll respond to you with a quote as soon as possible.
             In your email, let us know:
             <ul>
@@ -40,6 +40,7 @@ const About = () => {
             </ul>
           </p>
           <img id="hire-us-iamge" src={hall} alt='SF City Hall'/>
+          <p>For more details, please visit <a href="https://noteworthy.studentorg.berkeley.edu/hire-us/" target='__blank'>here</a></p>
         </div>
         <div className="FollowUs">
           <h1>Follow Us</h1>
