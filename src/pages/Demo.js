@@ -56,6 +56,7 @@ const Demo = () => {
           ))}
         </Slider>
       </div>
+      <h3>Find Us on <a href="https://www.youtube.com/@UCBNoteworthy" target="_blank" rel="noreferrer">YouTube</a> for More Videos!</h3>
     </div>
   );
 };
