@@ -1,7 +1,55 @@
 @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
 
-.flyer {
-  width: 50%;
-  height: 50%;
+#flyer, #image-carousel {
+  margin-bottom: 5rem;
+}
+
+.slide img {
+  width: 2rem;
+  height: 3rem;
+  margin: 0 auto;
+}
+
+.slide {
+  transform: scale(0.4);
+  transition: transform 500ms;
+  opacity: 0.5
+}
+
+.activeSlide {
+  transform: scale(1);
+  opacity: 1
+}
+
+.arrow {
+  background-color: transparent;
+  position: absolute;
+  cursor: pointer;
+  z-index: 10
+}
+
+.arrow svg {
+  color: grey;
+  transition: color 500ms;
+}
+
+.arrow svg:hover {
+  transform: 200ms;
+  color: black;
+  transform: scale(1.5);
+}
+
+.next {
+  right: 25%;
+  bottom: 5%
+}
+
+.prev {
+  left: 25%;
+  bottom: 5%
+}
+
+a:hover {
+  cursor: pointer;
 }
