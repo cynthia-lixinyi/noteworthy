@@ -2,6 +2,7 @@ import React from 'react';
 import Flyer from '../components/Flyer';
 import '../styles/About.css';
 import hall from '../assets/sf-city-hall.jpg';
+import instagram_feed from '../assets/instagram-feed.png';
 
 const About = () => {
   return (
@@ -44,6 +45,10 @@ const About = () => {
         </div>
         <div className="FollowUs">
           <h1>Follow Us</h1>
+          <p>on <a href="https://www.instagram.com/cal_noteworthy/" target="__blank">Instagram</a></p>
+          <a href="https://www.instagram.com/cal_noteworthy/" target='__blank'>
+            <img id="instagram-feed" src={instagram_feed} alt='Instagram Feed'/>
+          </a>
         </div>
       </div>
     </div>
