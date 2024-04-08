@@ -27,7 +27,7 @@ const About = () => {
           Cal’s a cappella orientation, at the beginning of every semester. 
           Hundreds of students turn out to hear 13+ a cappella groups perform. 
           The shows are always fun, and we hope you’ll come!</p>
-          {/* <Flyer max-width="100%"/> */}
+          {/* <Flyer /> */}
         </div>
         <div className="HireUs">
           <h1>Hire Us</h1>

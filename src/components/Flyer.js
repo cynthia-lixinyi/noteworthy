@@ -43,7 +43,7 @@ function Flyer() {
         <Slider {...settings}>
         {FlyerPictureList.map( (image, idx) => (
           <div className={idx === imageIndex ? "slide activeSlide" : "slide"}>
-            <img src={image} alt={`${idx}`}/>
+            <img src={image} alt={`${idx}`} width="100px" height="150px"/>
           </div>
         ))}
         </Slider>

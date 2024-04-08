@@ -14,7 +14,6 @@ function Footer() {
             <a href="https://www.youtube.com/@UCBNoteworthy" target="__blank"><YouTubeIcon /></a>
             <a href="mailto:noteworthy@ucchoral.berkeley.edu" target="__blank"><EmailIcon /></a>
         </div>
-        <></>
         <p>&copy; 2024 noteworthy.studentorg.berkeley.edu</p>
     </div>
   )
