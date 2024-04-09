@@ -8,8 +8,8 @@ import { FlyerPictureList } from '../helpers/FlyerPictureList';
 const About = () => {
   
   const outsideStyles = {
-    width: "250px",
-    height: "375px",
+    width: "100%",
+    height: "100%",
     margin: "0, auto",
     backgroundPosition: "center"
   }
