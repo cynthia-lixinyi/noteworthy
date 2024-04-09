@@ -1,10 +1,19 @@
 import React from 'react';
-import Flyer from '../components/Flyer';
+import Slider from '../components/Slider';
 import '../styles/About.css';
 import hall from '../assets/sf-city-hall.jpg';
 import instagram_feed from '../assets/instagram-feed.png';
+import { FlyerPictureList } from '../helpers/FlyerPictureList';
 
 const About = () => {
+  
+  const outsideStyles = {
+    width: "250px",
+    height: "375px",
+    margin: "0, auto",
+    backgroundPosition: "center"
+  }
+
   return (
     <div className="about">
       <div className="aboutUpperContainer">
@@ -27,7 +36,9 @@ const About = () => {
           Cal’s a cappella orientation, at the beginning of every semester. 
           Hundreds of students turn out to hear 13+ a cappella groups perform. 
           The shows are always fun, and we hope you’ll come!</p>
-          {/* <Flyer /> */}
+          <div id="eventSlider-outside-container" style={outsideStyles}>
+            <Slider slides={FlyerPictureList}/>
+          </div>
         </div>
         <div className="HireUs">
           <h1>Hire Us</h1>
