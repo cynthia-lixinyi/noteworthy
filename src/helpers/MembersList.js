@@ -107,23 +107,23 @@ export const MembersList = [
     },
     // 13.
     {
-        imgae: tom,
+        image: tom,
         name: "Tom Guan",
         voice_part: "Baritone",
         description: ""
     },
     // 14.
     {
-        image: madlen,
-        name: "Madlen Jalalyan",
-        voice_part: "Tenor 1",
+        image: chris,
+        name: "Christopher Yuan",
+        voice_part: "Tenor 2",
         description: ""
     },
     // 15.
     {
-        image: chris,
-        name: "Christopher Yuan",
-        voice_part: "Tenor 2",
+        image: madlen,
+        name: "Madlen Jalalyan",
+        voice_part: "Tenor 1",
         description: ""
     },
     // 16.
