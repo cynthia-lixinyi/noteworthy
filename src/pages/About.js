@@ -1,10 +1,19 @@
 import React from 'react';
-import Flyer from '../components/Flyer';
+import Slider from '../components/Slider';
 import '../styles/About.css';
 import hall from '../assets/sf-city-hall.jpg';
 import instagram_feed from '../assets/instagram-feed.png';
+import { FlyerPictureList } from '../helpers/FlyerPictureList';
 
 const About = () => {
+  
+  const outsideStyles = {
+    width: "100%",
+    height: "100%",
+    margin: "0, auto",
+    backgroundPosition: "center"
+  }
+
   return (
     <div className="about">
       <div className="aboutUpperContainer">
@@ -27,11 +36,13 @@ const About = () => {
           Cal’s a cappella orientation, at the beginning of every semester. 
           Hundreds of students turn out to hear 13+ a cappella groups perform. 
           The shows are always fun, and we hope you’ll come!</p>
-          <Flyer />
+          <div id="eventSlider-outside-container" style={outsideStyles}>
+            <Slider slides={FlyerPictureList}/>
+          </div>
         </div>
         <div className="HireUs">
           <h1>Hire Us</h1>
-          <p>Please e-mail our business manager at <b>noteworthy@ucchoral.berkeley.edu</b> and fill out this <a href="https://docs.google.com/forms/d/e/1FAIpQLSexPGp4LpkvAaE66Kmh5EllvAaXQtPmGquz_1dDo9g2PZ01hg/viewform" target="__blank">form</a>. 
+          <p>Please e-mail our business manager at <b><a href="mailto:noteworthy@ucchoral.berkeley.edu" target="__blank">noteworthy@ucchoral.berkeley.edu</a></b> and fill out this <a href="https://docs.google.com/forms/d/e/1FAIpQLSexPGp4LpkvAaE66Kmh5EllvAaXQtPmGquz_1dDo9g2PZ01hg/viewform" target="__blank">form</a>. 
             Then we’ll respond to you with a quote as soon as possible.
             In your email, let us know:
             <ul>
